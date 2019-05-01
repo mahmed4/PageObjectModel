@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="73" started-at="2019-05-01T17:14:04Z" finished-at="2019-05-01T17:14:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="73" started-at="2019-05-01T17:14:04Z" finished-at="2019-05-01T17:14:04Z">
+      <class name="com.qa.tests.WebTest">
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.tests.WebTest@174d20a]" name="div" duration-ms="27" started-at="2019-05-01T12:14:04Z" finished-at="2019-05-01T12:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="multi()[pri:0, instance:com.qa.tests.WebTest@174d20a]" name="multi" duration-ms="9" started-at="2019-05-01T12:14:04Z" finished-at="2019-05-01T12:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multi -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.tests.WebTest@174d20a]" name="sub" duration-ms="6" started-at="2019-05-01T12:14:04Z" finished-at="2019-05-01T12:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.tests.WebTest@174d20a]" name="sum" duration-ms="2" started-at="2019-05-01T12:14:04Z" finished-at="2019-05-01T12:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- com.qa.tests.WebTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

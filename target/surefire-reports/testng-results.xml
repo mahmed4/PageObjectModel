@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test maven suite" duration-ms="52" started-at="2019-05-01T18:38:11Z" finished-at="2019-05-01T18:38:11Z">
+    <groups>
+    </groups>
+    <test name="Maven testing" duration-ms="52" started-at="2019-05-01T18:38:11Z" finished-at="2019-05-01T18:38:11Z">
+      <class name="com.qa.tests.WebTest">
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.tests.WebTest@566776ad]" name="div" duration-ms="28" started-at="2019-05-01T13:38:11Z" finished-at="2019-05-01T13:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="multi()[pri:0, instance:com.qa.tests.WebTest@566776ad]" name="multi" duration-ms="0" started-at="2019-05-01T13:38:11Z" finished-at="2019-05-01T13:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multi -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.tests.WebTest@566776ad]" name="sub" duration-ms="0" started-at="2019-05-01T13:38:11Z" finished-at="2019-05-01T13:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.tests.WebTest@566776ad]" name="sum" duration-ms="0" started-at="2019-05-01T13:38:11Z" finished-at="2019-05-01T13:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- com.qa.tests.WebTest -->
+      <class name="com.qa.tests.WebTest1">
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.tests.WebTest1@79698539]" name="sub" duration-ms="0" started-at="2019-05-01T13:38:11Z" finished-at="2019-05-01T13:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method status="PASS" signature="multi()[pri:0, instance:com.qa.tests.WebTest1@79698539]" name="multi" duration-ms="0" started-at="2019-05-01T13:38:11Z" finished-at="2019-05-01T13:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multi -->
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.tests.WebTest1@79698539]" name="div" duration-ms="0" started-at="2019-05-01T13:38:11Z" finished-at="2019-05-01T13:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.tests.WebTest1@79698539]" name="sum" duration-ms="0" started-at="2019-05-01T13:38:11Z" finished-at="2019-05-01T13:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- com.qa.tests.WebTest1 -->
+      <class name="com.qa.tests.WebTest2">
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.tests.WebTest2@6b2fad11]" name="div" duration-ms="0" started-at="2019-05-01T13:38:11Z" finished-at="2019-05-01T13:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.tests.WebTest2@6b2fad11]" name="sub" duration-ms="0" started-at="2019-05-01T13:38:11Z" finished-at="2019-05-01T13:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method status="PASS" signature="multi()[pri:0, instance:com.qa.tests.WebTest2@6b2fad11]" name="multi" duration-ms="0" started-at="2019-05-01T13:38:11Z" finished-at="2019-05-01T13:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multi -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.tests.WebTest2@6b2fad11]" name="sum" duration-ms="0" started-at="2019-05-01T13:38:11Z" finished-at="2019-05-01T13:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- com.qa.tests.WebTest2 -->
+    </test> <!-- Maven testing -->
+  </suite> <!-- Test maven suite -->
+</testng-results>
