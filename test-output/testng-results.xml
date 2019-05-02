@@ -1,29 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="73" started-at="2019-05-01T17:14:04Z" finished-at="2019-05-01T17:14:04Z">
+  <suite name="Default suite" duration-ms="16165" started-at="2019-05-02T15:47:35Z" finished-at="2019-05-02T15:47:51Z">
     <groups>
+      <group name="gmailPageLink">
+        <method signature="GoogleTitileTest.gmailClickTest()[pri:0, instance:com.qa.tests.GoogleTitileTest@5dfcfece]" name="gmailClickTest" class="com.qa.tests.GoogleTitileTest"/>
+        <method signature="GoogleTitileTest.gmaillinkTest()[pri:0, instance:com.qa.tests.GoogleTitileTest@5dfcfece]" name="gmaillinkTest" class="com.qa.tests.GoogleTitileTest"/>
+      </group> <!-- gmailPageLink -->
     </groups>
-    <test name="Default test" duration-ms="73" started-at="2019-05-01T17:14:04Z" finished-at="2019-05-01T17:14:04Z">
-      <class name="com.qa.tests.WebTest">
-        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.tests.WebTest@174d20a]" name="div" duration-ms="27" started-at="2019-05-01T12:14:04Z" finished-at="2019-05-01T12:14:04Z">
+    <test name="Default test" duration-ms="16165" started-at="2019-05-02T15:47:35Z" finished-at="2019-05-02T15:47:51Z">
+      <class name="com.qa.tests.GoogleTitileTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GoogleTitileTest@5dfcfece]" name="setUp" is-config="true" duration-ms="6265" started-at="2019-05-02T10:47:35Z" finished-at="2019-05-02T10:47:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- div -->
-        <test-method status="PASS" signature="multi()[pri:0, instance:com.qa.tests.WebTest@174d20a]" name="multi" duration-ms="9" started-at="2019-05-01T12:14:04Z" finished-at="2019-05-01T12:14:04Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="gmaillinkTest()[pri:0, instance:com.qa.tests.GoogleTitileTest@5dfcfece]" name="gmaillinkTest" duration-ms="1852" started-at="2019-05-02T10:47:41Z" finished-at="2019-05-02T10:47:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multi -->
-        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.tests.WebTest@174d20a]" name="sub" duration-ms="6" started-at="2019-05-01T12:14:04Z" finished-at="2019-05-01T12:14:04Z">
+        </test-method> <!-- gmaillinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.GoogleTitileTest@5dfcfece]" name="tearDown" is-config="true" duration-ms="718" started-at="2019-05-02T10:47:43Z" finished-at="2019-05-02T10:47:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sub -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.tests.WebTest@174d20a]" name="sum" duration-ms="2" started-at="2019-05-01T12:14:04Z" finished-at="2019-05-01T12:14:04Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GoogleTitileTest@5dfcfece]" name="setUp" is-config="true" duration-ms="4805" started-at="2019-05-02T10:47:44Z" finished-at="2019-05-02T10:47:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sum -->
-      </class> <!-- com.qa.tests.WebTest -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="gmailClickTest()[pri:0, instance:com.qa.tests.GoogleTitileTest@5dfcfece]" name="gmailClickTest" duration-ms="1770" started-at="2019-05-02T10:47:48Z" finished-at="2019-05-02T10:47:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmailClickTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.GoogleTitileTest@5dfcfece]" name="tearDown" is-config="true" duration-ms="730" started-at="2019-05-02T10:47:50Z" finished-at="2019-05-02T10:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.GoogleTitileTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

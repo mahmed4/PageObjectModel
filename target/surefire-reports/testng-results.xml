@@ -1,65 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="12" passed="12">
+<testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Test maven suite" duration-ms="52" started-at="2019-05-01T18:38:11Z" finished-at="2019-05-01T18:38:11Z">
+  <suite name="Test maven suite" duration-ms="59363" started-at="2019-05-02T16:00:21Z" finished-at="2019-05-02T16:01:21Z">
     <groups>
+      <group name="gmailPageLink">
+        <method signature="GoogleTitileTest.gmailClickTest()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="gmailClickTest" class="com.qa.tests.GoogleTitileTest"/>
+        <method signature="GoogleTitileTest.gmaillinkTest()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="gmaillinkTest" class="com.qa.tests.GoogleTitileTest"/>
+      </group> <!-- gmailPageLink -->
+      <group name="link">
+        <method signature="GoogleTitileTest.gmailLinkTest()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="gmailLinkTest" class="com.qa.tests.GoogleTitileTest"/>
+      </group> <!-- link -->
+      <group name="logo">
+        <method signature="GoogleTitileTest.googleLogoTest()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="googleLogoTest" class="com.qa.tests.GoogleTitileTest"/>
+      </group> <!-- logo -->
+      <group name="title">
+        <method signature="GoogleTitileTest.googleTitleTest()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="googleTitleTest" class="com.qa.tests.GoogleTitileTest"/>
+      </group> <!-- title -->
     </groups>
-    <test name="Maven testing" duration-ms="52" started-at="2019-05-01T18:38:11Z" finished-at="2019-05-01T18:38:11Z">
-      <class name="com.qa.tests.WebTest">
-        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.tests.WebTest@566776ad]" name="div" duration-ms="28" started-at="2019-05-01T13:38:11Z" finished-at="2019-05-01T13:38:11Z">
+    <test name="Maven testing" duration-ms="59363" started-at="2019-05-02T16:00:21Z" finished-at="2019-05-02T16:01:21Z">
+      <class name="com.qa.tests.GoogleTitileTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="setUp" is-config="true" duration-ms="7079" started-at="2019-05-02T11:00:21Z" finished-at="2019-05-02T11:00:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- div -->
-        <test-method status="PASS" signature="multi()[pri:0, instance:com.qa.tests.WebTest@566776ad]" name="multi" duration-ms="0" started-at="2019-05-01T13:38:11Z" finished-at="2019-05-01T13:38:11Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="gmaillinkTest()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="gmaillinkTest" duration-ms="1967" started-at="2019-05-02T11:00:28Z" finished-at="2019-05-02T11:00:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multi -->
-        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.tests.WebTest@566776ad]" name="sub" duration-ms="0" started-at="2019-05-01T13:38:11Z" finished-at="2019-05-01T13:38:11Z">
+        </test-method> <!-- gmaillinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="tearDown" is-config="true" duration-ms="783" started-at="2019-05-02T11:00:30Z" finished-at="2019-05-02T11:00:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sub -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.tests.WebTest@566776ad]" name="sum" duration-ms="0" started-at="2019-05-01T13:38:11Z" finished-at="2019-05-01T13:38:11Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="setUp" is-config="true" duration-ms="4984" started-at="2019-05-02T11:00:31Z" finished-at="2019-05-02T11:00:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sum -->
-      </class> <!-- com.qa.tests.WebTest -->
-      <class name="com.qa.tests.WebTest1">
-        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.tests.WebTest1@79698539]" name="sub" duration-ms="0" started-at="2019-05-01T13:38:11Z" finished-at="2019-05-01T13:38:11Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleLogoTest()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="googleLogoTest" duration-ms="66" started-at="2019-05-02T11:00:36Z" finished-at="2019-05-02T11:00:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sub -->
-        <test-method status="PASS" signature="multi()[pri:0, instance:com.qa.tests.WebTest1@79698539]" name="multi" duration-ms="0" started-at="2019-05-01T13:38:11Z" finished-at="2019-05-01T13:38:11Z">
+        </test-method> <!-- googleLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="tearDown" is-config="true" duration-ms="714" started-at="2019-05-02T11:00:36Z" finished-at="2019-05-02T11:00:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multi -->
-        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.tests.WebTest1@79698539]" name="div" duration-ms="0" started-at="2019-05-01T13:38:11Z" finished-at="2019-05-01T13:38:11Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="setUp" is-config="true" duration-ms="4922" started-at="2019-05-02T11:00:37Z" finished-at="2019-05-02T11:00:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- div -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.tests.WebTest1@79698539]" name="sum" duration-ms="0" started-at="2019-05-01T13:38:11Z" finished-at="2019-05-01T13:38:11Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleLogoTest()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="googleLogoTest" duration-ms="63" started-at="2019-05-02T11:00:42Z" finished-at="2019-05-02T11:00:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sum -->
-      </class> <!-- com.qa.tests.WebTest1 -->
-      <class name="com.qa.tests.WebTest2">
-        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.tests.WebTest2@6b2fad11]" name="div" duration-ms="0" started-at="2019-05-01T13:38:11Z" finished-at="2019-05-01T13:38:11Z">
+        </test-method> <!-- googleLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="tearDown" is-config="true" duration-ms="716" started-at="2019-05-02T11:00:42Z" finished-at="2019-05-02T11:00:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- div -->
-        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.tests.WebTest2@6b2fad11]" name="sub" duration-ms="0" started-at="2019-05-01T13:38:11Z" finished-at="2019-05-01T13:38:11Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="setUp" is-config="true" duration-ms="4984" started-at="2019-05-02T11:00:42Z" finished-at="2019-05-02T11:00:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sub -->
-        <test-method status="PASS" signature="multi()[pri:0, instance:com.qa.tests.WebTest2@6b2fad11]" name="multi" duration-ms="0" started-at="2019-05-01T13:38:11Z" finished-at="2019-05-01T13:38:11Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleLogoTest()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="googleLogoTest" duration-ms="71" started-at="2019-05-02T11:00:47Z" finished-at="2019-05-02T11:00:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multi -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.tests.WebTest2@6b2fad11]" name="sum" duration-ms="0" started-at="2019-05-01T13:38:11Z" finished-at="2019-05-01T13:38:11Z">
+        </test-method> <!-- googleLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="tearDown" is-config="true" duration-ms="748" started-at="2019-05-02T11:00:48Z" finished-at="2019-05-02T11:00:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sum -->
-      </class> <!-- com.qa.tests.WebTest2 -->
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="setUp" is-config="true" duration-ms="4948" started-at="2019-05-02T11:00:48Z" finished-at="2019-05-02T11:00:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleLogoTest()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="googleLogoTest" duration-ms="51" started-at="2019-05-02T11:00:53Z" finished-at="2019-05-02T11:00:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="tearDown" is-config="true" duration-ms="744" started-at="2019-05-02T11:00:53Z" finished-at="2019-05-02T11:00:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="setUp" is-config="true" duration-ms="4903" started-at="2019-05-02T11:00:54Z" finished-at="2019-05-02T11:00:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleLogoTest()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="googleLogoTest" duration-ms="62" started-at="2019-05-02T11:00:59Z" finished-at="2019-05-02T11:00:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="tearDown" is-config="true" duration-ms="719" started-at="2019-05-02T11:00:59Z" finished-at="2019-05-02T11:01:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="setUp" is-config="true" duration-ms="4882" started-at="2019-05-02T11:01:00Z" finished-at="2019-05-02T11:01:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="gmailClickTest()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="gmailClickTest" duration-ms="3065" started-at="2019-05-02T11:01:05Z" finished-at="2019-05-02T11:01:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmailClickTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="tearDown" is-config="true" duration-ms="732" started-at="2019-05-02T11:01:08Z" finished-at="2019-05-02T11:01:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="setUp" is-config="true" duration-ms="5807" started-at="2019-05-02T11:01:08Z" finished-at="2019-05-02T11:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="gmailLinkTest()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="gmailLinkTest" duration-ms="58" started-at="2019-05-02T11:01:14Z" finished-at="2019-05-02T11:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmailLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="tearDown" is-config="true" duration-ms="726" started-at="2019-05-02T11:01:14Z" finished-at="2019-05-02T11:01:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="setUp" is-config="true" duration-ms="4849" started-at="2019-05-02T11:01:15Z" finished-at="2019-05-02T11:01:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleTitleTest()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="googleTitleTest" duration-ms="10" started-at="2019-05-02T11:01:20Z" finished-at="2019-05-02T11:01:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.GoogleTitileTest@3fb6a447]" name="tearDown" is-config="true" duration-ms="691" started-at="2019-05-02T11:01:20Z" finished-at="2019-05-02T11:01:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.GoogleTitileTest -->
     </test> <!-- Maven testing -->
   </suite> <!-- Test maven suite -->
 </testng-results>
